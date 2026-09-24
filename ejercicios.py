@@ -1,4 +1,4 @@
-'''
+
 # Ejercicio 1 nombre y mayoria de edad
 var_nombre = input("Por favor ingrese su nombre: ")
 var_edad = int(input("Ingrese su edad: "))
@@ -10,8 +10,8 @@ elif var_edad < 18:
     print(f"{var_nombre} usted es menor de edad, te faltan {18 - var_edad} años para ser mayor de edad.")
 else:
     print(f"{var_nombre} usted es menor de edad.") 
-'''
-'''
+
+
 # Ejercicio 2 nombre y calificación
 var_nombre = input("Por favor ingrese nombre del estudiante: ")
 var_calificacion = float(input("Ingrese su calificación final en una escala (0.0 a 5.0): "))
@@ -28,8 +28,8 @@ elif var_calificacion >= 3.0:
     print(f"{var_nombre} Aprobado! tiene un desempeño aceptable.")
 else:
     print(f"{var_nombre} Reprobado! tiene un desempeño insuficiente.")
-'''
-'''
+
+
 # Ejercicio 3 nombre valor de compra y descuento
 var_nombre = input("Nombre del cliente: ")
 var_valor_compra = float(input("Valor de la compra: "))
@@ -50,8 +50,8 @@ elif var_valor_compra >= 500000:
     print(f"{var_valor_compra} tiene un descuento del 20%. Total a Pagar: ${var_valor_final:.0f}")
 else:
     print(f"{var_valor_compra} no aplica para un descuento. Total a Pagar: ${var_valor_compra:.2f}")
-'''
-'''
+
+
 # Ejercicio 4: temperatura
 
 var_ciudad = input("Ingrese nombre de Ciudad: ")
@@ -67,7 +67,7 @@ elif var_temperatura  < 32:
     print(f"{var_ciudad} Temperatura CALIENTE {var_temperatura}°C")
 else:
     print(f"{var_ciudad} Temperatura MUY CALIENTE {var_temperatura}°C")
-'''
+
 
 # Ejercicio 5: empleado y salario
 

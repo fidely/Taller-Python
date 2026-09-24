@@ -1,18 +1,18 @@
-'''try:
+try:
     numero = int(input("Ingrese un número: "))
     print(f"El número ingresado es: {numero}")
 
 except ValueError:
     print("Error debe ingresar un número válido: ") 
 
-    '''
-'''
+
+
 #Ciclo infinito
 while True:
     print("Hola Mundo ")
 
-'''
-'''
+
+
 #ciclo condicion
 
 edad=18
@@ -24,9 +24,9 @@ while edad >=18:
     except ValueError:
         print("\nIngresar una edad válida:\n")    
 print("\nMenor de edad saliendo del sistema\n")    
-'''
 
-'''
+
+
 # Ejercicio 1: try / except básico
 # Sin manejo de errores, ingresar "hola" en lugar de un número
 # provocaría un ValueError y el programa se detendría.
@@ -36,9 +36,9 @@ try:
     print(f"El número ingresado es: {numero}")
 except ValueError:
     print("Error: debe ingresar un número entero válido.")
-    '''
 
-'''
+
+
 # Ejercicio 2: División segura con ZeroDivisionError
 try:
     dividendo = float(input("Ingrese el dividendo: "))
@@ -49,8 +49,8 @@ except ZeroDivisionError:
     print("Error: no es posible dividir entre cero.")
 except ValueError:
     print("Error: ingrese únicamente valores numéricos.")
-    '''
-'''
+
+
 # Ejercicio 3: else y finally
 # else  → se ejecuta solo si NO ocurrió ninguna excepción
 # finally → se ejecuta SIEMPRE, con o sin error
@@ -66,9 +66,9 @@ else:
         print("Acceso denegado: debe ser mayor de edad.")
 finally:
     print("Verificación finalizada.")
-    '''
 
-'''
+
+
 # Ejercicio 4: Solicitar un dato válido hasta que el usuario lo ingrese correctamente
 while True:
     try:
@@ -80,9 +80,9 @@ while True:
         print(f"Entrada inválida: {e}. Intente de nuevo.")
 
 print(f"Nota registrada: {nota}")
-'''
 
-'''
+
+
 # Ejercicio 5: raise — lanzar una excepción personalizada
 def calcular_promedio(notas):
     if len(notas) == 0:
@@ -99,8 +99,8 @@ try:
     print(f"Promedio: {round(promedio, 2)}")
 except ValueError as e:
     print(f"Error: {e}")
-'''
-'''
+
+
  #Solicitar al usuario dos numeros y un operador matematico
 try:
     num1 = float(input("\nIngrese el primer número: "))
@@ -146,4 +146,4 @@ except ValueError:
                 break  # Salir del ciclo si todo es válido
             except ValueError:
                 print("Error datos no válidos: ")
-                '''
+            

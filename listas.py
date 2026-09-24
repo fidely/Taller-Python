@@ -1,18 +1,17 @@
 #listas
-'''
+
 lista_nombres =[]
 
 while True:
-   variable_nombre = input("Ingrese un nombre:")
+    variable_nombre = input("Ingrese un nombre: ")   
     if variable_nombre != "salir":
-        lista_nombre.append(variable_nombre)
-
+        lista_nombres.append(variable_nombre)   
     if variable_nombre == "salir":
       print("Nombres Guardados: ")
-      print(lista_nombre)
+      print(lista_nombres)
       break
-'''
-'''
+
+
 nombre =input("Ingrese nombre: ")
 print(f"nombre en Mayuscula {nombre.upper()}")
 print(f"Nombre en Minuscula {nombre.lower()}")
@@ -21,7 +20,7 @@ if nombre.lower()=='fide':
     print("Hola Fide")
 else:
     print("Tu no eres Fide")
-    '''
+    
 
 lista_perros =[]
 lista_gatos =[]
